@@ -1,0 +1,11 @@
+lista = ["LUNES", "MARTES", "MIERCOLES", "JUEVES", "VIERNES"]
+lun = int(input())
+print(f"El día {lista[0]} se vendieron {lun} productos")
+mar = int(input())
+print(f"El día {lista[1]} se vendieron {mar} productos")
+mie = int(input())
+print(f"El día {lista[2]} se vendieron {mie} productos")
+jue = int(input())
+print(f"El día {lista[3]} se vendieron {jue} productos")
+vie = int(input())
+print(f"El día {lista[4]} se vendieron {vie} productos")
