@@ -4,7 +4,7 @@ monto = float(input("Digite el monto: "))
 
 if tipo.lower() == "local": #se pone "tipo.lower()" pq se pasa a minusculas lo ingresado y eso debe ser igual a "local"
   if monto > 100:
-    print("7%")
+    impuesto = 0.07  #o print("7%")
   elif monto > 75:
     print("5%")
   else: 
